@@ -73,12 +73,10 @@ $faq_sections = [
         'second_title' => '',
         'paragraph' => [
             'text' => 
-                '<p>In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l\'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <a href="https://policies.google.com/privacy/key-terms#toc-terms-referrer-url">URL referrer</a>. Talvolta, l\'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell\'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <a href="https://support.google.com/websearch/answer/173733">qui</a>. Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere disponibili mediante Google Analytics o un\'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all\'esatte parole chiave che hanno determinato il clic su un annuncio.</p>',
+                'In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l\'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <a href="https://policies.google.com/privacy/key-terms#toc-terms-referrer-url">URL referrer</a>. Talvolta, l\'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell\'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <a href="https://support.google.com/websearch/answer/173733">qui</a>. Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere disponibili mediante Google Analytics o un\'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all\'esatte parole chiave che hanno determinato il clic su un annuncio.',
         ],
     ],
 ];
-// <a href=""></a>
-// var_dump($faq_sections);
 ?>
 
 <!DOCTYPE html>
@@ -92,10 +90,29 @@ $faq_sections = [
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!-- Intestazione -->
-    <header></header>
+    <header class="p-4">
+        <div id="header-top" class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+                <img src="./img/googlelogo.png" alt="Google logo">
+                <a class="ms-2 text-decoration-none text-dark" href="https://policies.google.com/"><h3>Privacy e termini</h3></a>
+            </div>
+            <a href="www.google.it"><i class="text-dark fs-2 fa-solid fa-bars"></i></a>
+        </div>
+        <div id="header-btm" class="py-3">
+            <ul class="list-unstyled d-flex">
+                <li class="me-5"><a class="active fw-semibold text-decoration-none text-dark" href="#">Introduzione</a></li>
+                <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Norme sulla privacy</a></li>
+                <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Termini di servizio</a></li>
+                <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Tecnologie</a></li>
+                <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Domande frequenti</a></li>
+            </ul>
+        </div>
+    </header>
     <!-- Corpo principale -->
     <main>
         <div class="container">
