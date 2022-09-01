@@ -91,7 +91,7 @@ $faq_sections = [
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Intestazione -->
@@ -105,7 +105,7 @@ $faq_sections = [
         </div>
         <div id="header-btm" class="py-3">
             <ul class="list-unstyled d-flex">
-                <li class="me-5"><a class="active fw-semibold text-decoration-none text-dark" href="#">Introduzione</a></li>
+                <li class="me-5 active"><a class="fw-semibold text-decoration-none text-dark" href="#">Introduzione</a></li>
                 <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Norme sulla privacy</a></li>
                 <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Termini di servizio</a></li>
                 <li class="me-5"><a class="fw-semibold text-decoration-none text-dark" href="#">Tecnologie</a></li>

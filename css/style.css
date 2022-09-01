@@ -1,6 +1,6 @@
 header img {
     height: 30px;
 };
-#header-btm a .active {
+#header-btm li .active {
     border-bottom: 2px solid blue;
 };
