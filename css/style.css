@@ -1,0 +1,6 @@
+header img {
+    height: 30px;
+};
+#header-btm a .active {
+    border-bottom: 2px solid blue;
+};
